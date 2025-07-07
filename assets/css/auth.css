@@ -1,0 +1,36 @@
+/* Estilos para las páginas de autenticación */
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.text-muted {
+    font-size: 0.9rem;
+}
+
+.alert {
+    border-radius: 8px;
+}

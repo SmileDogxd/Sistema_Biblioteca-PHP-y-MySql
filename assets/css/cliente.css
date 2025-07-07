@@ -1,0 +1,115 @@
+/* Estilos generales para el tema oscuro */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.bg-gray-800 {
+    background-color: #1e1e1e;
+}
+
+.bg-gray-700 {
+    background-color: #252525;
+}
+
+.bg-gray-600 {
+    background-color: #333333;
+}
+
+.border-secondary {
+    border-color: #444 !important;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #1a1a1a;
+    min-height: calc(100vh - 56px);
+}
+
+.sidebar .nav-link {
+    color: #bbb;
+    border-left: 3px solid transparent;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+
+.sidebar .nav-link:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+.sidebar .nav-link.active {
+    color: #fff;
+    background-color: #333;
+    border-left: 3px solid #0d6efd;
+}
+
+/* Tablas */
+.table-dark {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+/* Formularios */
+.form-control, .form-select {
+    background-color: #252525;
+    border-color: #444;
+    color: #fff;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #252525;
+    border-color: #666;
+    color: #fff;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* FullCalendar */
+.fc {
+    color: #e0e0e0;
+}
+
+.fc .fc-toolbar-title {
+    color: #fff;
+}
+
+.fc .fc-button {
+    background-color: #333;
+    border-color: #444;
+    color: #fff;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+    background-color: #2a2a2a;
+}
+
+/* Cards */
+.card {
+    background-color: #1e1e1e;
+    border-color: #444;
+}
+
+.card-header {
+    background-color: #252525;
+    border-bottom-color: #444;
+}
+
+/* Alertas */
+.alert {
+    border: none;
+}
+
+/* Badges */
+.badge {
+    font-weight: 500;
+}

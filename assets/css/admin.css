@@ -1,0 +1,143 @@
+/* Estilos base del tema oscuro */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.bg-gray-800 {
+    background-color: #1e1e1e;
+}
+
+.bg-gray-700 {
+    background-color: #252525;
+}
+
+.bg-gray-600 {
+    background-color: #333333;
+}
+
+.border-secondary {
+    border-color: #444 !important;
+}
+
+/* Sidebar Admin */
+.sidebar {
+    background-color: #1a1a1a;
+    min-height: calc(100vh - 56px);
+}
+
+.sidebar .nav-link {
+    color: #bbb;
+    border-left: 3px solid transparent;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    transition: all 0.3s;
+}
+
+.sidebar .nav-link:hover {
+    color: #fff;
+    background-color: #333;
+}
+
+.sidebar .nav-link.active {
+    color: #fff;
+    background-color: #333;
+    border-left: 3px solid #0d6efd;
+}
+
+.sidebar .nav-link i {
+    width: 24px;
+    text-align: center;
+}
+
+/* Cards */
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+    background-color: #252525;
+    border-bottom: 1px solid #444;
+}
+
+/* Badges */
+.badge {
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+/* FullCalendar Admin */
+.fc {
+    color: #e0e0e0;
+}
+
+.fc .fc-toolbar-title {
+    color: #fff;
+}
+
+.fc .fc-button {
+    background-color: #333;
+    border-color: #444;
+    color: #fff;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+    background-color: #2a2a2a;
+}
+
+/* Formularios */
+.form-control, .form-select {
+    background-color: #252525;
+    border-color: #444;
+    color: #fff;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: #252525;
+    border-color: #666;
+    color: #fff;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* Alertas */
+.alert {
+    border: none;
+}
+
+/* Tablas */
+.table-dark {
+    --bs-table-bg: #1e1e1e;
+    --bs-table-striped-bg: #252525;
+    --bs-table-hover-bg: #2a2a2a;
+    --bs-table-border-color: #444;
+}
+
+/* List Group */
+.list-group-item {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border-color: #444;
+}
+
+.list-group-item:hover {
+    background-color: #252525;
+    color: #fff;
+}
+
+/* Botones */
+.btn-outline-light {
+    color: #e0e0e0;
+    border-color: #666;
+}
+
+.btn-outline-light:hover {
+    background-color: #333;
+    color: #fff;
+}
