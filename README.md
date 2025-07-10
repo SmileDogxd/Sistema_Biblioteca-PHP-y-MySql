@@ -1,0 +1,1 @@
+Proyecto hecho para un control de inventario para una biblioteca, hecho en las tecnologias PHP, HTML, CSS, JS y como base de datos Mysql, Un proyecto algo sencillo para empezar Instala XAMPP y trabajalo de manera local, impor la base de datos
